@@ -1,6 +1,12 @@
+html {
+    background: url(https://images.homedepot-static.com/productImages/622b55ec-1d08-4546-92af-5aff64fc547f/svn/chesapeake-wallpaper-dlr14053sam-64_1000.jpg);
+}
 
-#wrapper {
+
+/* Header section */
+#header-wrapper {
     border-bottom: 2px solid #cccc;
+    background: #ffffff;
 }
 
 #header-section {
@@ -64,4 +70,25 @@ header .navigation-links a {
 
 header .navigation-links a span {
  color: #cccccc;
+}
+
+/* About me section */
+
+#about-wrapper {
+    background: #ffffff;
+    width: 960px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#about-wrapper h1 {
+    color: #4aaaa5;
+    padding: 40px 20px;
+}
+
+#about-wrapper p {
+    padding: 40px 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
