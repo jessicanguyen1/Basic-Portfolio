@@ -120,6 +120,33 @@ form p {
     color: #ffffff;
 }
 
+/* Floating items in .box-wrapper clearfix */
+
+.box-wrapper:before,
+.box-wrapper:after {
+  content: "";
+  display: table;
+} 
+.box-wrapper:after {
+  clear: both;
+}
+
+.box-item {
+    float: left;
+    margin: 40px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.box-item p {
+    text-align: center;
+    background: #4aaaa5;
+    padding: 20px !important;
+    position: relative;
+    top: 70%;
+}
+
 footer {
     font-size: 12px;
     background: #888;

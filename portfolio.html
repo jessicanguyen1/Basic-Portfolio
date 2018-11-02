@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
 <head>
+    <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -31,7 +33,30 @@
     <div id="content-wrapper">
         <h1>Portfolio</h1>
         <hr>
-        <p></p>
+        <div class="box-wrapper">
+            <!-- box-wrapper contains floating elements so I used clearfix CSS properties to clear floats -->
+            <div class="box-item" style="background: url(http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/11/video-games.jpg); background-repeat: no-repeat; background-size: cover;"
+                background-position-x: -44px; background-position-y: -31px;>
+                <p>Hangman</p>
+            </div>
+            <div class="box-item" style="background: url(https://www.techbooky.com/wp-content/uploads/2018/04/technology-and-us.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: -48px;">
+                <p>RPG Game</p>
+            </div>
+
+            <div class="box-item" style="background: url(http://2.bp.blogspot.com/-qiAEfXavPTE/VS6wc1Nj4HI/AAAAAAAACiY/GggbH8oE5sU/s1600/contest_winner.jpeg); background-repeat: no-repeat; background-size: cover; background-position-x: -99px;">
+                <p>Trivia Game</p>
+            </div>
+
+            <div class="box-item" style="background: url(https://developer.android.com/design/media/widgets_resizing01.png); background-repeat: no-repeat; background-size: cover; background-position-x: -32px;">
+                <p>Rutgers Info Widget</p>
+            </div>
+
+            <div class="box-item" style="background: url(http://okinawa.stripes.com/sites/default/files/styles/news_node_for_responsive/public/janken.jpg?itok=NknyesSM); background-repeat: no-repeat; background-size: cover; background-position-x: -80px;
+            background-position-y: -25px;">
+                <p>Rock Paper Scissors</p>
+            </div>
+
+        </div>
     </div>
 
     <footer>Copyright &#169;</footer>
