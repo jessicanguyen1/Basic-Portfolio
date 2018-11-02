@@ -1,4 +1,8 @@
 
+#wrapper {
+    border-bottom: 2px solid #cccc;
+}
+
 #header-section {
     width: 960px;
     height: 100px;
@@ -22,18 +26,25 @@ h1, h2, h3, h3, h4, h5, h6 {
 
 h1 {
     font-size: 24px;
-    
+    font-weight: bold;
+    color: #ffffff;
 }
 
 header {
     width: 100%;
     margin: 0 auto;
-    background: blue;
+    background: #ffffff;
 }
 
 header .logo {
-    width: 20%;
-    background: lightblue;
+    width: 25%;
+    background: #4aaaa5;
+}
+
+header .logo h1 {
+    position: relative;
+    top: 37px;
+    left: 25px;
 }
 
 header .navigation-links {
@@ -44,9 +55,9 @@ header .navigation-links {
 header .navigation-links a {
     position: relative;
     top: 35px;
-    left: 84px;
+    left: 40px;
     font-size: 20px;
-    color: yellow;
+    color: #777777;
     text-decoration: none;
     
 }
