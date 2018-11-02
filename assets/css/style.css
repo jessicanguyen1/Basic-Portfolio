@@ -72,9 +72,9 @@ header .navigation-links a span {
  color: #cccccc;
 }
 
-/* About me section */
+/* Content section */
 
-#about-wrapper {
+#content-wrapper {
     background: #ffffff;
     width: 960px;
     margin: 40px auto 100px;
@@ -82,19 +82,19 @@ header .navigation-links a span {
     padding: 20px;
 }
 
-#about-wrapper h1 {
+#content-wrapper h1 {
     color: #4aaaa5;
     padding: 40px 20px;
 }
 
-#about-wrapper p {
+#content-wrapper p {
     padding: 40px 20px;
     letter-spacing: 1px;
     line-height: 1.5;
     color: #777777
 }
 
-#about-wrapper p img {
+#content-wrapper p img {
     width: 200px;
     float: left;
     margin-right: 20px;
