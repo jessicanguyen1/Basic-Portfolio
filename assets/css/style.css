@@ -100,6 +100,26 @@ header .navigation-links a span {
     margin-right: 20px;
 }
 
+form input, form textarea {
+    width: 100%;
+    font-size: 16px;
+    margin: 12px auto;
+    padding: 11px;
+    color: #777777;
+    box-sizing: border-box;
+}
+
+form p {
+    padding: 10px 0px 0px !important;
+}
+
+ form input[type=submit] {
+    width: 140px !important;
+    padding: 14px;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
 footer {
     font-size: 12px;
     background: #888;
