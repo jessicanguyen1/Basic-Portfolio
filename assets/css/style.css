@@ -92,3 +92,9 @@ header .navigation-links a span {
     letter-spacing: 1px;
     line-height: 1.5;
 }
+
+#about-wrapper p img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
